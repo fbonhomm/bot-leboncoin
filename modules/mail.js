@@ -20,15 +20,15 @@ class Mail {
 		});
 	}
 
-	setMail(exp, dst, sub, txt) {
+	setMail(sender, recipient, subject, content) {
 		/*
 		* setting mail. exp: sender, dst: recipient, sub: subject, txt: content of mail
 		*/
 		this.options = {
-			from: exp,
-			to: dst,
-			subject: sub,
-			text: txt
+			from: `Bot-Leboncoin <${sender}>`,
+			to: recipient,
+			subject: subject,
+			text: content
 		};
 	}
 

@@ -6,4 +6,21 @@ Simple bot for the fun
 npm install  
 node index.js  
 
-after soon ...
+## Usage
+
+Setting the file setting.json  
+
+research: the text at research  
+key_word: words at research in the title of offer  
+region: region or all for 'toute la france'  
+minus: minimal price  
+more: maximal price  
+time: checking time  
+recipient: recipient mail  
+service: email service (ex: gmail)  
+user: mail address  
+password: password mail address  
+
+node index.js  
+
+![alt tag](exemple.png))

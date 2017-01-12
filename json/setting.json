@@ -4,13 +4,11 @@
 	"region": "all",
 	"minus": "0",
 	"more": "200",
-	"mail": "flo-github@outlook.fr",
 	"time": "1",
 	"mail": {
-		"sender": "Bot_Leboncoin' <ttiti9547@gmail.com>",
-		"recipient": "flo-github@outlook.fr",
+		"recipient": "",
 		"account": {
-			"service": "gmail",
+			"service": "",
 			"user": "",
 			"password": ""
 		}

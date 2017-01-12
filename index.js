@@ -57,7 +57,7 @@ schedule.scheduleJob(`*/${set.time} * * * *`, function(){
 		console.log(error)
 	if (items.count) {
 		var txt = tool.concateItem(items)
-		mail.setMail(set.mail.sender, set.mail.recipient, `[${items.count} items] ${set.research}`, txt)
+		mail.setMail(set.mail.account.user, set.mail.recipient, `[${items.count} items] ${set.research}`, txt)
 		mail.sendMail()
 	}
 	json.checkSizeJson(annex.file.article, 80)

@@ -5,6 +5,15 @@ Simple bot for the fun
 ## Installation
 npm install  
 
+## Language and Library
+
+node.js  
+
+- node-schedule (https://www.npmjs.com/package/node-schedule)  
+- sync-request (https://www.npmjs.com/package/sync-request)  
+- cheerio (https://www.npmjs.com/package/cheerio)  
+- md5 (https://www.npmjs.com/package/md5)  
+
 ## Usage
 
 Setting the file setting.json  

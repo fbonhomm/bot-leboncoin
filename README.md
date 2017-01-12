@@ -4,7 +4,6 @@ Simple bot for the fun
 
 ## Installation
 npm install  
-node index.js  
 
 ## Usage
 
@@ -19,8 +18,8 @@ time: checking time
 recipient: recipient mail  
 service: email service (ex: gmail)  
 user: mail address  
-password: password mail address  
+password: password user mail  
 
-node index.js  
+$> node index.js  
 
 ![alt tag](exemple.png))

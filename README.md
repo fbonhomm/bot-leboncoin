@@ -3,11 +3,14 @@ Bot checking the new offer in terms of setting and send a mail with the info
 Simple bot for the fun
 
 ## Installation
-npm install  
+
+install node.js
+
+ - npm install  
 
 ## Language and Library
 
-node.js  
+- node.js  
 
 - node-schedule (https://www.npmjs.com/package/node-schedule)  
 - sync-request (https://www.npmjs.com/package/sync-request)  

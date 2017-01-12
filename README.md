@@ -10,7 +10,7 @@ install node.js
 
 ## Language and Library
 
-- node.js  
+node.js  
 
 - node-schedule (https://www.npmjs.com/package/node-schedule)  
 - sync-request (https://www.npmjs.com/package/sync-request)  

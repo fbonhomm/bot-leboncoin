@@ -1,0 +1,26 @@
+{
+  "name": "bot-leboncoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fbonhomm@bitbucket.org/fbonhomm/bot-leboncoin.git"
+  },
+  "author": "fbonhomm",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fbonhomm/bot-leboncoin#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "jsonfile": "^2.4.0",
+    "md5": "^2.2.1",
+    "node-schedule": "^1.2.0",
+    "nodemailer-promise": "^1.0.3",
+    "request": "^2.79.0",
+    "sleep": "^5.1.0",
+    "sync-request": "^3.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"research": "ps4",
+	"key_word": ["ps4", "console"],
+	"region": "all",
+	"minus": "0",
+	"more": "200",
+	"mail": "flo-github@outlook.fr",
+	"time": "1",
+	"mail": {
+		"sender": "Bot_Leboncoin' <ttiti9547@gmail.com>",
+		"recipient": "flo-github@outlook.fr",
+		"account": {
+			"service": "gmail",
+			"user": "ttiti9547@gmail.com",
+			"password": "123456789e"
+		}
+	}
+}

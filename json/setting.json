@@ -1,0 +1,16 @@
+{
+	"research": "ps4",
+	"key_word": ["ps4", "console"],
+	"region": "all",
+	"minus": "0",
+	"more": "200",
+	"time": "1",
+	"mail": {
+		"recipient": "",
+		"account": {
+			"service": "",
+			"user": "",
+			"password": ""
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"balise": {
+		"loop": "a.list_item",
+		"children": "section[class=item_infos]",
+		"title": ".item_title",
+		"price": ".item_price"
+	},
+	"file": {
+		"article": "json/article.json"
+	}
+}

@@ -15,12 +15,7 @@
   "homepage": "https://bitbucket.org/fbonhomm/bot-leboncoin#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "jsonfile": "^2.4.0",
-    "md5": "^2.2.1",
-    "node-schedule": "^1.2.0",
-    "nodemailer-promise": "^1.0.3",
-    "request": "^2.79.0",
-    "sleep": "^5.1.0",
-    "sync-request": "^3.0.1"
+    "nodemailer": "^4.6.5",
+    "nodemailer-smtp-transport": "^2.7.4"
   }
 }

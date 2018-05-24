@@ -2,15 +2,10 @@
 'use strict';
 
 module.exports = {
-	bloc: {
-		tag: 'li',
-		type: 'itemscope',
-		content: ''
-	},
 	link: {
 		tag: 'a',
 		type: 'class',
-		content: 'item_item',
+		content: 'list_item clearfix trackable',
 		exec: 'attribut',
 		attribut: 'href'
 	},

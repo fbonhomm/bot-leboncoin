@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add nodemailer
+
+PATH: 
+  /home/flobib/miniconda3/bin:/home/flobib/bin:/home/flobib/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.11.2
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "bot-leboncoin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://fbonhomm@bitbucket.org/fbonhomm/bot-leboncoin.git"
+    },
+    "author": "fbonhomm",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/fbonhomm/bot-leboncoin#readme",
+    "dependencies": {
+      "cheerio": "^0.22.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/flobib/prog/bot-leboncoin/package.json: Unexpected token } in JSON at position 450
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:103:13
+      at <anonymous>

@@ -5,14 +5,14 @@ const nodemailer = require('nodemailer');
 
 class Mail {
 
-	construtor(setting) {
+	constructor(setting) {
 		this.setting = setting;
 		this.transporter = nodemailer.createTransport({
-			service: setting.service_mail,
-		    auth: {
-		    	user: setting.address,
-		      pass: setting.password
-		    }
+			service: setting.service,
+	    auth: {
+	    	user: setting.address,
+	      pass: setting.password
+	    }
 		});
 	}
 
@@ -23,7 +23,7 @@ class Mail {
 		this.options = {
 			from: `Bot-Leboncoin <${this.setting.address}>`,
 			to: this.setting.recipient,
-			subject: 'bot_leboncoin - ${} items',
+			subject: 'bot_leboncoin - New Offers',
 			text: content
 		};
 	}
@@ -32,12 +32,11 @@ class Mail {
 		/*
 		* send mail
 		*/
-		this.transporter.sendMail(this.options, function(error, info) {
-		    if (error)
-		        console.log(error)
-	    	console.log(`[${Date()}] Message sent: ${info.response}.`)
+		this.transporter.sendMail(this.options, (err, info) => {
+		    if (err) console.error(err);
+				else console.log(info);
 		})
 	}
 }
 
-module.exports = Mail
+module.exports = Mail;
